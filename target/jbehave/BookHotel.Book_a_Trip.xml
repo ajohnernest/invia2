@@ -1,0 +1,12 @@
+<story path="file:/D:/invia/target/test-classes/BookHotel/Book_a_Trip.story" title="Story: To verify why
+
+Description: Define a trip">
+<scenario keyword="Scenario:" title="scenario description">
+<meta>
+<property keyword="@" name="P1" value=""/>
+</meta>
+<step outcome="successful">Given I wanted to book a trip</step>
+<step outcome="successful">When I do a search with valid details</step>
+<step outcome="successful">Then the portal should show the results</step>
+</scenario>
+</story>

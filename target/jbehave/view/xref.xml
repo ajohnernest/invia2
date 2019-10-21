@@ -1,0 +1,68 @@
+<xref>
+  <whenMade>1571577956942</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>+P1 +P2 +P3 -P4</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description>Story: To verify why
+
+Description: Define a trip</description>
+      <narrative></narrative>
+      <name>Book_a_Trip.story</name>
+      <path>file:/D:/invia/target/test-classes/BookHotel/Book_a_Trip.story</path>
+      <html>BookHotel.Book_a_Trip.html</html>
+      <meta>P1=
+</meta>
+      <scenarios>Scenario:scenario description
+Given I wanted to book a trip
+When I do a search with valid details
+Then the portal should show the results
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1571577879375</started>
+      <duration>75549</duration>
+    </story>
+  </stories>
+  <stepMatches>
+    <stepMatch>
+      <type>GIVEN</type>
+      <annotatedPattern>I wanted to book a trip</annotatedPattern>
+      <resolvedPattern>I\s+wanted\s+to\s+book\s+a\s+trip</resolvedPattern>
+      <usages>
+        <use>
+          <story>file:/D:/invia/target/test-classes/BookHotel/Book_a_Trip.story</story>
+          <scenario>scenario description</scenario>
+          <step>Given I wanted to book a trip</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>THEN</type>
+      <annotatedPattern>the portal should show the results</annotatedPattern>
+      <resolvedPattern>the\s+portal\s+should\s+show\s+the\s+results</resolvedPattern>
+      <usages>
+        <use>
+          <story>file:/D:/invia/target/test-classes/BookHotel/Book_a_Trip.story</story>
+          <scenario>scenario description</scenario>
+          <step>Then the portal should show the results</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>WHEN</type>
+      <annotatedPattern>I do a search with valid details</annotatedPattern>
+      <resolvedPattern>I\s+do\s+a\s+search\s+with\s+valid\s+details</resolvedPattern>
+      <usages>
+        <use>
+          <story>file:/D:/invia/target/test-classes/BookHotel/Book_a_Trip.story</story>
+          <scenario>scenario description</scenario>
+          <step>When I do a search with valid details</step>
+        </use>
+      </usages>
+    </stepMatch>
+  </stepMatches>
+</xref>

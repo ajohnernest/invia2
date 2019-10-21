@@ -1,0 +1,13 @@
+Story: To verify why
+
+Description: Define a trip
+(file:/D:/invia/target/test-classes/BookHotel/Book_a_Trip.story)
+Scenario: scenario description
+Meta:
+@P1 
+
+Given I wanted to book a trip
+When I do a search with valid details
+Then the portal should show the results
+
+

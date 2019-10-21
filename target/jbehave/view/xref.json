@@ -1,0 +1,59 @@
+{"xref": {
+  "whenMade": 1571577956942,
+  "createdBy": "JBehave",
+  "metaFilter": "+P1 +P2 +P3 -P4",
+  "meta": [],
+  "stories": [
+    {
+      "description": "Story: To verify why\n\nDescription: Define a trip",
+      "narrative": "",
+      "name": "Book_a_Trip.story",
+      "path": "file:/D:/invia/target/test-classes/BookHotel/Book_a_Trip.story",
+      "html": "BookHotel.Book_a_Trip.html",
+      "meta": "P1=\n",
+      "scenarios": "Scenario:scenario description\nGiven I wanted to book a trip\nWhen I do a search with valid details\nThen the portal should show the results\n\n\n",
+      "passed": true,
+      "pending": false,
+      "started": 1571577879375,
+      "duration": 75549
+    }
+  ],
+  "stepMatches": [
+    {
+      "type": "GIVEN",
+      "annotatedPattern": "I wanted to book a trip",
+      "resolvedPattern": "I\\s+wanted\\s+to\\s+book\\s+a\\s+trip",
+      "usages": [
+        {
+          "story": "file:/D:/invia/target/test-classes/BookHotel/Book_a_Trip.story",
+          "scenario": "scenario description",
+          "step": "Given I wanted to book a trip"
+        }
+      ]
+    },
+    {
+      "type": "THEN",
+      "annotatedPattern": "the portal should show the results",
+      "resolvedPattern": "the\\s+portal\\s+should\\s+show\\s+the\\s+results",
+      "usages": [
+        {
+          "story": "file:/D:/invia/target/test-classes/BookHotel/Book_a_Trip.story",
+          "scenario": "scenario description",
+          "step": "Then the portal should show the results"
+        }
+      ]
+    },
+    {
+      "type": "WHEN",
+      "annotatedPattern": "I do a search with valid details",
+      "resolvedPattern": "I\\s+do\\s+a\\s+search\\s+with\\s+valid\\s+details",
+      "usages": [
+        {
+          "story": "file:/D:/invia/target/test-classes/BookHotel/Book_a_Trip.story",
+          "scenario": "scenario description",
+          "step": "When I do a search with valid details"
+        }
+      ]
+    }
+  ]
+}}
